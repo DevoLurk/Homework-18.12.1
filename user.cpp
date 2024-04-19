@@ -2,6 +2,7 @@
 
 std::fstream& operator >>(std::fstream& is, User& obj)
 {
+	int size;
 	is >> obj._name;
 	is >> obj._login;
 	is >> obj._pass;
